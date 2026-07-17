@@ -2,34 +2,32 @@
 
 ## Project Overview
 
-This project focuses on analyzing machine breakdown data to help manufacturing teams monitor equipment performance, reduce downtime, and support preventive maintenance.
+An interactive machine breakdown dashboard developed in **Looker Studio** to monitor equipment performance across **Manufacturing (MFG)** and **Packaging (PKG)** operations. The dashboard enables maintenance and production teams to monitor machine downtime, equipment availability, recurring breakdowns, and corrective actions using regularly updated operational data.
 
-The dashboard provides real-time visibility into machine failures, downtime trends, and maintenance KPIs, enabling management to identify operational bottlenecks and improve equipment reliability.
+> **Note:** The dashboard is designed to support daily maintenance monitoring by providing detailed operational insights for Manufacturing (MFG) and Packaging (PKG) machines.
 
-## Business Problem
+## Business Objective
 
-Frequent machine breakdowns can lead to production delays, increased maintenance costs, and reduced manufacturing efficiency.
+- Monitor machine breakdowns across Manufacturing (MFG) and Packaging (PKG).
+- Track equipment downtime and machine availability.
+- Identify machines with frequent breakdowns.
+- Analyze recurring equipment failures and corrective actions.
+- Compare breakdown performance across production shifts.
+- Support preventive maintenance and improve operational efficiency.
 
-The objective of this dashboard is to:
+## Dataset
 
-- Monitor machine performance
-- Track equipment downtime
-- Identify frequently failing machines
-- Support preventive maintenance planning
-- Improve overall equipment utilization
-
-## Dashboard Objectives
-
-- Monitor manufacturing equipment performance
-- Analyze downtime trends
-- Track maintenance KPIs
-- Compare machine performance
-- Enable data-driven maintenance decisions
+The dashboard is built using regularly updated machine breakdown data containing breakdown date, production shift, equipment name, problem details, corrective actions, downtime, breakdown percentage, and machine availability information.
 
 ## Tools Used
 
 - Looker Studio
 - Google Sheet
+
+## Dashboard Pages
+
+- Manufacturing (MFG) Analysis
+- Packaging (PKG) Analysis
 
 ## Key Performance Indicators (KPIs)
 
@@ -38,22 +36,21 @@ The objective of this dashboard is to:
 - MTBF (Mean Time Between Failures)
 - Machine Availability (%)
 - Average Downtime
-- Machine-wise Breakdown Frequency
 
+## Live Dashboard
 
-## Key Insights
-
-- Identified machines contributing the highest downtime.
-- Detected recurring breakdown patterns across specific equipment.
-- Highlighted periods with increased maintenance requirements.
-- Enabled maintenance teams to prioritize high-risk equipment.
-- Improved visibility into overall manufacturing performance.
-
-## Dashboard Link
-
+👉 **[View Interactive Dashboard](https://datastudio.google.com/s/h43W7-uar4Y)**
 
 
 ## Dashboard Pages
+
+### Manufacturing (MFG) Analysis
+
+![Manufacturing Analysis](screenshots/manufacturing-analysis.PNG)
+
+### Packaging (PKG) Analysis
+
+![Packaging Analysis](screenshots/packaging-analysis.PNG)
 
 
 
