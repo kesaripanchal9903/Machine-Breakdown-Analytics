@@ -46,11 +46,11 @@ The dashboard is built using regularly updated machine breakdown data containing
 
 ### Manufacturing (MFG) Analysis
 
-![Manufacturing Analysis](screenshots/manufacturing-analysis.PNG)
+![Manufacturing Analysis](screenshot/manufacturing-analysis.PNG)
 
 ### Packaging (PKG) Analysis
 
-![Packaging Analysis](screenshots/packaging-analysis.PNG)
+![Packaging Analysis](screenshot/packaging-analysis.PNG)
 
 
 
